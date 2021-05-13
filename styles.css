@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    background-color: #f5f5fb;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-block{
+    width: 300px;
+    height: 105%;
+    background-color: white;
+}
+
+.main{
+    background-color: aquamarine;
+    height: 100vh;
+    width: auto;
+}
+
+.right-block{
+    width: 24%;
+    background-color: bisque;
+    height: 100vh;
+}
+
+.logo{
+    width: 131px;
+    height: 48px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.piccont{
+    display: flex;
+    margin-right: 0;
+}
+
+.pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5E81F4;
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+
+   
+    margin-right: 0;
+}
+
+.picsign{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 31.99px;
+}
+
+.logosign{
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    color: #5E81F4;
+    font-size: 22px;
+    font-weight: 600;
+    padding-right: 5px;
+    
+}
+
+.join{
+    display: flex;
+    background-color: #5E81F4;
+    border-radius: 10px;
+    width: 192px;
+    height: 48px;
+    margin-top: 48px;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.joinsign{
+    display: table-cell;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navleft{
+    width: 200px;
+    height: 357px;
+   
+    margin-top: 48px;
+    margin-left: auto;
+}
+
+.navleft > ul > li{
+    list-style-type: none;
+    font-family: 'Inter', sans-serif;
+    color: #8DA1B5;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 48px;
+}
+
+.navleftElement{
+    display: flex;
+    align-items: center;
+}
+
+.navleftElement > img{
+    width: 20px;
+    height: 20px;
+    padding-right: 25px;
+}
+
+.navleftElementsel{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: 600;
+}
+
+.navleftElementsel > img{
+    width: 20;
+    height: 20px;
+    padding-right: 25px;
+}
+
+.selection{
+    background-color: #5e81f4;
+    height: 32px;
+    width: 2px;
+    position: absolute;
+    margin-left: 198px;
+    margin-right: 0;
+    padding-right: 0;
+    display: inline-block;
+}
+
+.upgrade{
+    width: 192px;
+    height: 274px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 69px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.upgrade div{
+    position: absolute;
+}
+
+.folder{
+    height: 99px;
+    width: 85px;
+}
+
+.rect{
+    border-radius: 12px;
+    margin-top: 42px;
+    width: 192px;
+    height: 232px;
+    background-color: #f5f5fb;
+
+}
+
+.rect > p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #778dad;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.upgbutton{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #5e81f4;
+    width: 144px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 15px
+}
+
+.main{
+    background-color: #f5f5fb;
+    padding-top: 48px;
+    width: 80%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search > form > input{
+    width: 472px;
+    height: 56px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    background-image: url('/assets/search.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    outline: none;
+    padding-left: 57px;
+}
+
+.search > form > input:focus{
+   border: none; 
+   outline: none; 
+   background-image: url('/assets/search.png');
+   background-position: 10px 10px;
+   background-repeat: no-repeat;
+   padding-left: 57px;
+}
+
+.search > form:focus{
+    border: none;
+}
+
+.bell{
+    width: 20px;
+    height: 25px;
+    display: inline-block;
+}
+
+.allcourses{
+    margin-top: 47px;
+    height: 37px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.allcourses > p{
+    color: black;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.unsel{
+    color: #768492;
+    display: inline;
+}
+
+.sel{
+    color: #5E81F4;
+    display: inline;
+    height: 37px;
+}
+
+.allcourses > .mainnav > .navmenu > ul > li{
+    list-style-type: none;
+    display: inline;
+    font-weight: 600;
+    font-size: 17px;
+    margin-left: 51px;
+
+   
+}
+
+.selm{
+    background-color: #5E81f4;
+    height: 2px;
+    width: 18px;
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 28px;
+}
+
+.sel > p{
+    display: inline-block;
+}
+
+.unsel > p{
+   display: inline-block;
+}
+
+.mainnav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 29px;
+    padding-top: 3px;
+}
+
+.selul > li{
+    display: inline;
+    list-style-type: none;
+    margin-left: 32px;
+    margin-right: 32px;
+    max-height: 6px;
+}
+
+
+
+.us{
+    opacity: 0;
+    background-color: #5E81f4;
+    height: 2px;
+    width: 18px;
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 28px;
+}
+
+.mainbox{
+    width: 100%;
+    margin-top: 36px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.uiux{
+    width: 100%;
+    height: 363px;
+    background-image: url('assets/uiux_bg.png');
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 42px;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    
+}
+
+.bottomblock{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+
+.photography{
+    border-radius: 10px;
+    width: 46%;
+    height: 311px;
+    padding-left: 2%;
+    background-image: url('assets/ph_bg.png');
+    background-size: cover;
+
+}
+
+.animation{
+    border-radius: 10px;
+    width: 46%;
+    height: 311px;
+    padding-left: 2%;
+    background-image: url('assets/anim_bg.png');
+    background-size: cover;
+
+}
+
+.uiuxsign{
+    height: 59px;
+    width: 95%;
+
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+    color: white;
+}
+
+
+
+.uiuxnamesign{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.uiuxlessons{
+    font-size: 18px;
+    opacity: 0.8;
+    font-weight: 300;
+    margin-top: 2px;
+}
+
+.uiuxtime{
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.uiuxplay{
+    width: 95%;
+    margin-top: 210px;
+
+    height: 46px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.playbutton{
+    width: 46px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.face{
+    width: 37px;
+    height: 37px;
+    border-radius: 90px;
+}
+
+.face > img{
+    border-radius: 90px;
+    border: white 3px solid;
+}
+
+.bottomblock > .photography > .uiuxplay{
+    margin-top: 150px;
+}
+
+.bottomblock > .animation > .uiuxplay{
+    margin-top: 150px;
+}
+
+.user{
+    margin-left: 8%;
+    margin-right: 29%;
+    margin-top: 43px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user > img{
+    width: 56px;
+    height: 56px;
+}
+
+.username{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: black;
+}
