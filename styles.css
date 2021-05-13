@@ -476,6 +476,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 240px;
 }
 
 .user > img{
@@ -488,4 +489,5 @@ body{
     font-weight: 600;
     font-size: 24px;
     color: black;
+    display: inline;
 }
