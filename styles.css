@@ -469,8 +469,7 @@ body{
 }
 
 .user{
-    margin-left: 8%;
-    margin-right: 29%;
+    margin-left: 32px;
     margin-top: 43px;
     height: 56px;
     display: flex;
@@ -487,7 +486,37 @@ body{
 .username{
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     color: black;
     display: inline;
+}
+
+.progressblock{
+    margin-left: 32px;
+    margin-top: 70px;
+}
+
+.progressblock > p{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.status{
+    margin-top: 27px;
+}
+
+.uiuxpic{
+    background-color: #EEF2FD;
+    border-radius: 6px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uiuxpic > img{
+
 }
