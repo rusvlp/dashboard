@@ -33,7 +33,7 @@ body{
 .right-block{
     width: 24%;
     background-color: bisque;
-    height: 100vh;
+    
 }
 
 .logo{
@@ -501,6 +501,7 @@ body{
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 4px;
+    width: 81%;
 }
 
 .status{
@@ -517,6 +518,43 @@ body{
     align-items: center;
 }
 
-.uiuxpic > img{
+.status{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
+.statussign{
+    display: flex;
+    flex-direction: column;
+    margin-left: 19px;
+}
+
+.statussign > h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+   
+    height: 19px;
+    overflow: hidden;
+
+}
+
+.statussign > h2{
+    font-family: 'Inter', sans-serif;
+    color: #83919E;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.uir{
+    display: block;
+    background-color: #5E81F4, 20 %;
+    width: 33%;
+    height: 8px;
+    border-radius: 21px;
+}
+
+.uirange{
+    width: 100%;
 }
