@@ -20,7 +20,6 @@ body{
 
 .left-block{
     width: 300px;
-    height: 105%;
     background-color: white;
 }
 
@@ -32,7 +31,7 @@ body{
 
 .right-block{
     width: 24%;
-    background-color: bisque;
+    background-color: white;
     
 }
 
@@ -725,10 +724,29 @@ body{
 }
 
 .download{
-    background-image: src();
+    background-image: url('assets/download.svg');
+    background-repeat: no-repeat;
+    width: 312px;
+    height: 226px;
+    margin-top: 74px;
+    font-family: 'Inter', sans-serif;
+    padding-top: 21px;
+    margin-left: 32px;
+    margin-right: 40px;
+    
 }
 
+.download > h1{
+    font-size: 18px;
+  
+    margin-left: 26px;
+}
 
+.download > h2{
+    font-size: 18px;
+    margin-left: 26px;
+    
+}
 
 
 
