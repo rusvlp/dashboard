@@ -878,6 +878,9 @@ body{
     .animation{
         width: 100%;
     }
+    .uiux{
+        margin: 0;
+    }
 }
 
 @media all and (min-width: 2000px) {
