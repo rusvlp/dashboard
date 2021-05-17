@@ -748,12 +748,137 @@ body{
     
 }
 
+.uppersign{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    display: none;
+    border-radius: 3px 0 3px 0;
+}
 
 
+.lines{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
 
+.lines > img{
+    opacity: 0.5;
+}
 
+.uspic{
+    margin-right: 15px;
+}
 
+@media all and (max-width: 1200px) and (min-width: 750px){
+    .right-block{
+        display: none;
+    }
+    .left-block{
+        display: none;
+    }
+    .content{
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+    }
 
+    .uppersign{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        margin: 0;
+    }
+    .main{
+        width: 95%;
+    }
+}
+
+@media all and (max-width: 750px){
+    .right-block{
+        display: none;
+    }
+    .left-block{
+        display: none;
+    }
+    .content{
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .sline{
+        width: 70%;
+    }
+
+    .search > form > input{
+        width: 100%;
+    }
+
+    .uppersign{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo{
+        margin: 0;
+    }
+
+    .main{
+        width: 95%;
+    }
+
+    .allcourses > p{
+        display: none;
+    }
+    
+    .allcourses{
+        justify-content: center;
+    }
+
+    .allcourses > .mainnav > .navmenu > ul > li{
+        margin-left: 0px;
+    }
+
+    .allcourses > .mainnav > .navmenu > ul{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .allcourses > .mainnav > .navmenu{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .mainnav{
+        width: 100%;
+    }
+
+    .main{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .selm{
+        display: none;
+    }
+
+    .bottomblock{
+        flex-wrap: wrap;
+        display: block;
+    }
+    .photography{
+        width: 100%;
+    }
+    .animation{
+        width: 100%;
+    }
+}
 
 @media all and (min-width: 2000px) {
     .sir{
